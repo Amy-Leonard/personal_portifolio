@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.about_me {
+    width: 90%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(182, 209, 193);
+    cursor: default;
+}
+
+.about_me__image_wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.about_me__image {
+    max-width:556px;
+    max-height:525px;
+    width: 60%;
+    box-shadow: 0 0 20px black;
+}
+
+.about_me__text {
+    height: 100%;
+    width: 60%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.about_me__text_block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.about_me__title {
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
