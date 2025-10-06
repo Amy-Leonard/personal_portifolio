@@ -5,7 +5,7 @@ import OneShotItem from "./OneShotItem"
 
 type Props = {
     one_shots: React.ReactNode[];
-    title?: string;
+    title: string;
 }
 
 const OneShotList:React.FC<Props> = ({ title, one_shots }) => {
