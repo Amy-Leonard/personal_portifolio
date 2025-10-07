@@ -11,21 +11,16 @@
 }
 
 .typical_session__image_wrapper {
-    width: 30%;
     display: flex;
     justify-content: center;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
+    padding: 2%;
 }
 
 .typical_session__image {
-    width: 300px;
+    width: 70%;
+    max-width: 556px;
+    height: 70%;
     box-shadow: 0 0 20px black;
-    max-width:556px;
-    max-height:525px;
-    display: block;
-    height: auto;
 }
 
 .typical_session__text {
