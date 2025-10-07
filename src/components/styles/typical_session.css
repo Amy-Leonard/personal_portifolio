@@ -11,7 +11,7 @@
 }
 
 .typical_session__image_wrapper {
-    width: 60%;
+    width: 30%;
     display: flex;
     justify-content: center;
     padding-left: 2%;
@@ -20,12 +20,11 @@
 }
 
 .typical_session__image {
-    width: 40%;
+    width: 300px;
     box-shadow: 0 0 20px black;
     max-width:556px;
     max-height:525px;
     display: block;
-    width: auto;
     height: auto;
 }
 
@@ -56,4 +55,13 @@
     justify-content: center;
     background-color: rgb(121, 141, 129);
 
+}
+
+@media (max-width: 992px) {
+    .typical_session {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
