@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import profile from "../images/profile.png"
+import profile from "../images/profile.JPG"
 import "./styles/about_me.css";
 
 const AboutMe:React.FC = () => {
