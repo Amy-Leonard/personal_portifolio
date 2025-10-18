@@ -10,7 +10,7 @@ const CoolStuff: React.FC = () => {
     <div>
         <Header/>
             <EventComponent text="Murder Mystery" images={[profile]} title="Murder Mystery"/>
-            <EventComponent text="Ultimate Werewold" images={[profile]}title="Ultimate Werewolf" image_on_the_right={false}/>
+            <EventComponent text="Ultimate Werewolf, Two rooms and a Booom" images={[profile]} title="Game Host" image_on_the_right={false}/>
             <EventComponent text="D&D Collaboration Events" images={[profile]} title="D&D Collaboration Events"/>
         <Footer/>
     </div>

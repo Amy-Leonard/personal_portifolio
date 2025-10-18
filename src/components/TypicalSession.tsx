@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import profile from "../images/profile.png"
+import session_photo from "../images/session_photo.jpg"
 import "./styles/typical_session.css";
 
 const TypicalSession:React.FC = () => {
@@ -43,7 +43,7 @@ const TypicalSession:React.FC = () => {
             </div>
 
             <div className="typical_session__image_wrapper">
-                <img src={profile} alt="profile" className="typical_session__image"/>
+                <img src={session_photo} alt="profile" className="typical_session__image"/>
             </div>
         </div>
     </div>

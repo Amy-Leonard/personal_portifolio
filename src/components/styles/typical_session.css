@@ -17,9 +17,9 @@
 }
 
 .typical_session__image {
-    width: 70%;
+    width: auto;
     max-width: 556px;
-    height: 70%;
+    height: auto;
     box-shadow: 0 0 20px black;
 }
 
