@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.event_component__wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(182, 209, 193);
+    cursor: default;
+    font-family: "Kurale", serif;
+}
+
+.event_component__content {
+    width: 90%;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(182, 209, 193);
+    cursor: default;
+    font-family: "Kurale", serif;
+}
+
+.event_component__image_wrapper{
+    display: flex;              /* make it a flex container */
+    justify-content: center;    /* center horizontally */
+    align-items: center; 
+    padding: 2%;
+    align-items: center;
+
+}
+.event_component__text_block_wrapper{
+    padding-bottom: 5%;
+    width: 85%;
+}
+
+
+.event_component__image {
+    height: 80%;
+    width: auto;
+    max-width: 556px;
+    box-shadow: 0 0 20px black;
+}
+
+.event_component__title {
+    width: 90%;
+    min-height: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(182, 209, 193);
+    cursor: default;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .event_component__wrapper {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .event_component__content {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .event_component__image {
+        height: 20%;
+        width: auto;
+        max-width: 229px;
+        box-shadow: 0 0 20px black;
+    }
+    .event_component__image {
+        display: none;
+    }
+}

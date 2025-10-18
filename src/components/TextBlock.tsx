@@ -6,7 +6,7 @@ type Props = {
 }
 
 
-const OneShotItem:React.FC<Props> = ({text}) => {
+const TextBlock:React.FC<Props> = ({text}) => {
 
     return (
     <div className="text_block__wrapper">
@@ -16,4 +16,4 @@ const OneShotItem:React.FC<Props> = ({text}) => {
 } 
 
 
-export default OneShotItem;
+export default TextBlock;

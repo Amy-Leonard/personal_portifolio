@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from "react";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import TextBlock from '../components/TextBlock'
+import EventComponent from "../components/EventComponent";
+import profile from "../images/profile.png";
+import SectionDivider from "../components/SectionDivider";
 
 const CoolStuff: React.FC = () => {
     return (
     <div>
         <Header/>
-            <TextBlock text="THIS IS COOL STUFF"/>
+            <EventComponent text="Murder Mystery" images={[profile]} title="Murder Mystery"/>
+            <EventComponent text="Ultimate Werewold" images={[profile]}title="Ultimate Werewolf" image_on_the_right={false}/>
+            <EventComponent text="D&D Collaboration Events" images={[profile]} title="D&D Collaboration Events"/>
         <Footer/>
     </div>
     )

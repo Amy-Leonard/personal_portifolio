@@ -1,0 +1,9 @@
+.section_divider {
+  height: 4px;
+  width: 80%;
+  background: linear-gradient(to right, transparent, #888, transparent);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;    /* center horizontally */
+    align-items: center; 
+}
